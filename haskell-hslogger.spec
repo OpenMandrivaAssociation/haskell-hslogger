@@ -8,6 +8,7 @@ Group: Development/Other
 License: LGPL
 Url: http://software.complete.org/hslogger
 Source: http://software.complete.org/hslogger/static/download_area/%{version}/hslogger_%{version}.tar.bz2
+BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: ghc
 BuildRequires: haddock
 BuildRequires: haskell-macros

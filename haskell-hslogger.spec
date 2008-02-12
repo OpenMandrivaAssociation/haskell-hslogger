@@ -14,7 +14,8 @@ BuildRequires: haddock
 BuildRequires: haskell-macros
 
 %description
-hslogger is a logging framework for Haskell, roughly similar to Python's logging module.
+hslogger is a logging framework for Haskell, roughly similar to Python's
+logging module.
 
 hslogger has a number of features:
   o Each log message has a priority and a source associated with it 

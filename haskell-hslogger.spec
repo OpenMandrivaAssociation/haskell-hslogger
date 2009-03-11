@@ -1,13 +1,13 @@
 %define module hslogger
 
 Name: haskell-%{module}
-Version: 1.0.1
-Release: %mkrel 6
+Version: 1.0.7
+Release: %mkrel 1
 Summary: Logging framework for Haskell
 Group: Development/Other
 License: LGPL
 Url: http://software.complete.org/hslogger
-Source: http://software.complete.org/hslogger/static/download_area/%{version}/hslogger_%{version}.tar.bz2
+Source: http://software.complete.org/hslogger/static/download_area/%{version}/hslogger-%{version}.tar.gz
 BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: ghc
 BuildRequires: haddock
@@ -26,7 +26,7 @@ hslogger has a number of features:
   o Easy to use operation
 
 %prep
-%setup -q -n %{module}
+%setup -q -n %{module}-%{version}
 
 %build
 %_cabal_build
@@ -39,7 +39,7 @@ hslogger has a number of features:
 %install
 %_cabal_install
 
-rm -fr %{buildroot}/%_datadir/*/doc/
+rm -fr %{buildroot}/%_datadir/doc/
 
 %_cabal_rpm_gen_deps
 

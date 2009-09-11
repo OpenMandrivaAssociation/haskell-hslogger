@@ -2,7 +2,7 @@
 
 Name: haskell-%{module}
 Version: 1.0.7
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Logging framework for Haskell
 Group: Development/Other
 License: LGPL

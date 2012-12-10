@@ -55,3 +55,47 @@ rm -fr %{buildroot}/%_datadir/doc/
 rm -fr %buildroot
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.7-4mdv2011.0
++ Revision: 611062
+- rebuild
+
+* Sun Nov 08 2009 Olivier Thauvin <nanardon@mandriva.org> 1.0.7-3mdv2010.1
++ Revision: 463208
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Thu Mar 12 2009 Olivier Thauvin <nanardon@mandriva.org> 1.0.7-1mdv2009.1
++ Revision: 354065
+- 1.0.7
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - fix description-line-too-long
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Sep 07 2007 Olivier Thauvin <nanardon@mandriva.org> 1.0.1-4mdv2008.0
++ Revision: 81494
+- rebuild
+
+
+* Wed Mar 14 2007 Olivier Thauvin <nanardon@mandriva.org> 1.0.1-3mdv2007.1
++ Revision: 143300
+- rebuild again
+
+* Mon Mar 12 2007 Olivier Thauvin <nanardon@mandriva.org> 1.0.1-2mdv2007.1
++ Revision: 141554
+- rebuild with haskell provides
+
+* Sun Mar 04 2007 Olivier Thauvin <nanardon@mandriva.org> 1.0.1-1mdv2007.1
++ Revision: 132716
+- initial mdv package
+- Create haskell-hslogger
+

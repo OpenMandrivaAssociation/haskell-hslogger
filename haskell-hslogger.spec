@@ -6,7 +6,7 @@ Release: %mkrel 4
 Summary: Logging framework for Haskell
 Group: Development/Other
 License: LGPL
-Url: http://software.complete.org/hslogger
+Url: https://software.complete.org/hslogger
 Source: http://software.complete.org/hslogger/static/download_area/%{version}/hslogger-%{version}.tar.gz
 BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: ghc
